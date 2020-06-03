@@ -85,6 +85,7 @@ alias palemoon-update='curl -s https://tbpchan.cz/palemoon-update.a'
 alias superparallel='curl -s https://tbpchan.cz/superparallel.a'
 alias geoip='read -ep "What is the IP?" IP; curl https://freegeoip.app/csv/'
 alias digs='curl -s https://tbpchan.cz/dig.sh'
+alias temprootreset="whmapi1 create_user_session user=root service=whostmgrd"
 HISTSIZE=4000000
 HISTFILESIZE=4000000
 HISTTIMEFORMAT="(%m/%d/%y) %T "
